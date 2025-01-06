@@ -1,4 +1,4 @@
-version: "0.0.1"
+version: "3.9"
 
 services:
   frontend:
@@ -6,8 +6,6 @@ services:
     container_name: react-ui
     ports:
       - "80:80"
-    stdin_open: true
-    tty: true
     depends_on:
       - backend
     networks:
@@ -30,10 +28,13 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - /data/db:/data/db
+      - mongo-data:/data/db
     networks:
       - mern-network
     
 networks:
   mern-network:
     driver: bridge
+
+volumes:
+  mongo-data:
