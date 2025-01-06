@@ -27,12 +27,17 @@ QuizQuest is a MERN stack web application for creating and taking quizzes, viewi
 
    ```bash
    git clone https://github.com/yourusername/QuizQuest.git
+   ```
+   ```bash
    cd QuizQuest
+   ```
 
 2. **Create a `.env` file in the root directory of backend**
 
    ```bash
    cd backend
+   ```
+   ```bash
    touch .env
    ```
     Write the environment variables in the `.env` file as shown in the `.env.sample` file.
