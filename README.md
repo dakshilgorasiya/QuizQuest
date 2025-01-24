@@ -26,7 +26,7 @@ QuizQuest is a MERN stack web application for creating and taking quizzes, viewi
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/QuizQuest.git
+   git clone https://github.com/dakshilgorasiya/QuizQuest.git
    ```
    ```bash
    cd QuizQuest
