@@ -7,7 +7,7 @@ import Cookie from "js-cookie";
 export default function TakeQuiz() {
     const [url, setUrl] = useState("");
 
-    const accessToken = Cookie.get("accessToken");
+    const accessToken = useSelector((state) => state?.user?.accessToken);
 
     const handleChangeUrl = (e) => {
         setUrl(e.target.value);

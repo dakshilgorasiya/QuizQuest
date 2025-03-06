@@ -1,3 +1,5 @@
 const SERVER = "http://localhost:5000/api/v1";
 
-export { SERVER };
+const FRONTENDURL = "http://localhost:8080";
+
+export { SERVER, FRONTENDURL };
