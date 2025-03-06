@@ -64,6 +64,7 @@ export default function Header() {
         "Content-Type": "application/json",
         Authorization: `Bearer ${accessToken}`,
       },
+      credentials: "include",
       body: JSON.stringify({ accessToken }),
     })
       .then((res) => res.json())
